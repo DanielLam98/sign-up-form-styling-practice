@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="logo-background">
+      <div class="logo">
+        <img
+          src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+          alt="odin logo"
+        />
+        <h1>ODIN</h1>
+      </div>
+    </div>
+    <section class="form">
+      <section class="top">
+        <p>
+          This is not a real online service! Only fill out this form if you love
+          dogs, it'll help you realize your deepest dreams. Sign up
+          <em>now</em> to get started.
+        </p>
+        <br />
+        <h2>You <em>know</em> you want to.</h2>
+      </section>
+      <section class="middle">
+        <h3>Let's do this!</h3>
+        <form action="#" id="myform">
+          <div>
+            <label for="first_name">FIRST NAME</label>
+            <input type="text" id="first_name" name="fname" />
+          </div>
+          <div>
+            <label for="last_name">LAST NAME</label>
+            <input type="text" name="lname" id="last_name" />
+          </div>
+          <div>
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div>
+            <label for="phone_number">PHONE NUMBER</label>
+            <input type="number" name="phone_number" id="phone_number" />
+          </div>
+          <div>
+            <label for="password">PASSWORD</label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <div>
+            <label for="password_confirm">CONFIRM PASSWORD</label>
+            <input
+              type="password"
+              name="password_confirm"
+              id="password_confirm"
+            />
+          </div>
+        </form>
+      </section>
+      <section class="bottom">
+        <input
+          type="submit"
+          name="submit"
+          form="myform"
+          id="submit"
+          value="Create Account"
+        />
+        <h2>Already have an account? <a href="#">Log in</a></h2>
+      </section>
+    </section>
+  </body>
+</html>
